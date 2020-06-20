@@ -1,0 +1,119 @@
+.img {
+    background-image: url('../img/web.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+}
+
+.content {
+    padding-top: 180px;padding-bottom: 200px;
+    box-sizing: border-box;
+}
+
+.content h2 {
+    font-size: 35px;
+}
+
+.content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+/* services */
+.sec {
+    padding: 60px 0px;
+}
+
+.sec h1 {
+    font-weight: bold;
+}
+
+.im {
+    margin: 60px 0px 10px !important;
+
+}
+
+/* icons */
+.imgset {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+}
+
+.fa-laptop-code {
+    margin-top: 20px;
+}
+
+.fa-shopping-cart {
+    margin-top: 23px;
+    margin-right: 5px;
+}
+
+.fa-user-shield {
+    margin-top: 20px;margin-left: 5px;
+}
+.im h2{
+font-weight: bold;margin-top: 15px;
+}
+.port{
+    padding-top: 50px;padding-bottom: 50px;
+}
+.port h2{
+    font-weight: bold;
+}
+.card{
+    margin-top: 30px;
+}
+
+/* team */
+.team{
+    padding-top: 30px;padding-bottom: 30px;
+}
+.team h2{
+    font-weight: bold;margin-top: 15px;    
+}
+footer{
+    margin-top: 30px;
+}
+footer h6{
+    padding-bottom: 5px;
+}
+
+/* responsive */
+
+@media(min-width:550px and max-width:750px){
+    .content h2 {
+        font-size: 15px;
+    }
+    
+    .content h1 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+}
+@media(min-width:450px and max-width:550px){
+    .content h2 {
+        font-size: 15px;
+    }
+    
+    .content h1 {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .card h2{
+        font-size: 5px;
+    }
+}
+@media(max-width:450px){
+    .content h2 {
+        font-size: 20px;
+    }
+    
+    .content h1 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+   
+}
